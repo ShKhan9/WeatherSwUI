@@ -21,17 +21,16 @@ struct MainView: View {
            set:{self.fromServer = $0}
          )
        return GeometryReader { reader in
-        VStack {
+        VStack(spacing:0) {
             HStack {  Text(city).font(.custom("TimesNewRomanPS-ItalicMT", size:21)).foregroundColor(Color.white)
                           Toggle(isOn:bind) {
                             Text("")
                           }
                        }.padding(20).frame(width: reader.size.width, height: 60, alignment: .leading).background(Color(UIColor.link))
-            
             HStack {
                 ForEach(self.vm.constants,id:\.self) { item in  Text(item).font(.custom("TimesNewRomanPS-BoldMT", size:17))  .frame(maxWidth: .infinity, alignment: .center).foregroundColor(Color.white)
                 }
-            }.frame(width: reader.size.width, height:50, alignment: .leading).background(Color(UIColor.gray))
+                }.frame(width: reader.size.width, height:40, alignment: .leading).background(Color(UIColor.darkGray))
             
              BottomView(arr:self.vm.result)
                       
@@ -47,13 +46,13 @@ struct BottomView: View {
    var body: some View {
     return GeometryReader { reader in
        List {
-        ForEach(self.arr) { section  in  Section(header:Text(getDateFromTimeStamp(section.list.first!.dt)).font(.custom("TimesNewRomanPS-BoldMT", size:16))) {
+        ForEach(self.arr) { section  in  Section(header:Text("   " + getDateFromTimeStamp(section.list.first!.dt)).font(.custom("TimesNewRomanPS-BoldMT", size:16)).frame(width: reader.size.width, height:CGFloat(55), alignment: .leading).foregroundColor(Color.black)) {
             ForEach(section.list) { item  in
                 MainListItem(withItem:item).frame(width: reader.size.width, height:CGFloat(40), alignment: .leading).padding(.leading,-15)
               }
             }
          }
-        }.id(UUID()).listStyle(GroupedListStyle()).padding(.bottom,20)
+        }.id(UUID()).listStyle(GroupedListStyle()).padding(.bottom,10)
       }
     }
 }
