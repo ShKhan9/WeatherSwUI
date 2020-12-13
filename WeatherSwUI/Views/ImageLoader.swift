@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import Combine
 class ImageLoader: ObservableObject {
     var didChange = PassthroughSubject<Data, Never>()
     var data = Data() {

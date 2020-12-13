@@ -6,8 +6,7 @@
 //  Copyright © 2020 MailMedia. All rights reserved.
 //
 
-import SwiftUI
-import Combine
+import SwiftUI 
 
 struct MainListItem: View {
     
