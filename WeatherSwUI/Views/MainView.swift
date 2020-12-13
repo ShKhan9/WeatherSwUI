@@ -46,7 +46,7 @@ struct BottomView: View {
    var body: some View {
     return GeometryReader { reader in
        List {
-        ForEach(self.arr) { section  in  Section(header:Text("   " + getDateFromTimeStamp(section.list.first!.dt)).font(.custom("TimesNewRomanPS-BoldMT", size:16)).frame(width: reader.size.width, height:CGFloat(55), alignment: .leading).foregroundColor(Color.black)) {
+        ForEach(self.arr) { section  in  Section(header:Text("   " + getDateFromTimeStamp(section.list.first!.dt)).font(.custom("TimesNewRomanPS-BoldMT", size:16)).frame(width: reader.size.width, height:CGFloat(45), alignment: .leading).foregroundColor(Color.black)) {
             ForEach(section.list) { item  in
                 MainListItem(withItem:item).frame(width: reader.size.width, height:CGFloat(40), alignment: .leading).padding(.leading,-15)
               }
