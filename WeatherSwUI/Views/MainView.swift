@@ -49,7 +49,7 @@ struct BottomView: View {
        List {
         ForEach(self.arr) { section  in  Section(header:Text(getDateFromTimeStamp(section.list.first!.dt)).font(.custom("TimesNewRomanPS-BoldMT", size:16))) {
             ForEach(section.list) { item  in
-                MainListItem(withItem:item).frame(width: reader.size.width, height:CGFloat(40), alignment: .leading)
+                MainListItem(withItem:item).frame(width: reader.size.width, height:CGFloat(40), alignment: .leading).padding(.leading,-25)
               }
             }
          }
