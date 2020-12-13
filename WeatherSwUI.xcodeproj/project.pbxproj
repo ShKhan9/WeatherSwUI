@@ -18,7 +18,6 @@
 		527BDCB125863D23005FAC42 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BDCAC25863D23005FAC42 /* Helper.swift */; };
 		527BDCB225863D23005FAC42 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BDCAE25863D23005FAC42 /* Model.swift */; };
 		527BDCB325863D23005FAC42 /* Local.json in Resources */ = {isa = PBXBuildFile; fileRef = 527BDCB025863D23005FAC42 /* Local.json */; };
-		527BDCB625863F8B005FAC42 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BDCB525863F8A005FAC42 /* MainViewModel.swift */; };
 		527BDCBA25865FA6005FAC42 /* MainListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BDCB925865FA5005FAC42 /* MainListItem.swift */; };
 		527BDCBC25867644005FAC42 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BDCBB25867644005FAC42 /* Loader.swift */; };
 /* End PBXBuildFile section */
@@ -58,7 +57,6 @@
 		527BDCAC25863D23005FAC42 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		527BDCAE25863D23005FAC42 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		527BDCB025863D23005FAC42 /* Local.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Local.json; sourceTree = "<group>"; };
-		527BDCB525863F8A005FAC42 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		527BDCB925865FA5005FAC42 /* MainListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListItem.swift; sourceTree = "<group>"; };
 		527BDCBB25867644005FAC42 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,7 +111,6 @@
 			children = (
 				527BDCBE258677BC005FAC42 /* App Delegates */,
 				527BDCBD258677A5005FAC42 /* Views */,
-				527BDCB425863F8A005FAC42 /* ViewModel */,
 				527BDCAF25863D23005FAC42 /* Files */,
 				527BDCAB25863D23005FAC42 /* Helper */,
 				527BDCAD25863D23005FAC42 /* Model */,
@@ -173,15 +170,6 @@
 				527BDCB025863D23005FAC42 /* Local.json */,
 			);
 			path = Files;
-			sourceTree = "<group>";
-		};
-		527BDCB425863F8A005FAC42 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				527BDCB525863F8A005FAC42 /* MainViewModel.swift */,
-			);
-			name = ViewModel;
-			path = ../../WeatherForecast/WeatherForecast/ViewModel;
 			sourceTree = "<group>";
 		};
 		527BDCBD258677A5005FAC42 /* Views */ = {
@@ -342,7 +330,6 @@
 				527BDCBA25865FA6005FAC42 /* MainListItem.swift in Sources */,
 				527BDCB125863D23005FAC42 /* Helper.swift in Sources */,
 				527BDCBC25867644005FAC42 /* Loader.swift in Sources */,
-				527BDCB625863F8B005FAC42 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
