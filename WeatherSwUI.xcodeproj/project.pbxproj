@@ -20,7 +20,7 @@
 		527BDCB225863D23005FAC42 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BDCAE25863D23005FAC42 /* Model.swift */; };
 		527BDCB325863D23005FAC42 /* Local.json in Resources */ = {isa = PBXBuildFile; fileRef = 527BDCB025863D23005FAC42 /* Local.json */; };
 		527BDCBA25865FA6005FAC42 /* MainListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BDCB925865FA5005FAC42 /* MainListItem.swift */; };
-		527BDCBC25867644005FAC42 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BDCBB25867644005FAC42 /* Loader.swift */; };
+		527BDCBC25867644005FAC42 /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BDCBB25867644005FAC42 /* IndicatorView.swift */; };
 		527BDCC125868C70005FAC42 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BDCC025868C70005FAC42 /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,7 +61,7 @@
 		527BDCAE25863D23005FAC42 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		527BDCB025863D23005FAC42 /* Local.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Local.json; sourceTree = "<group>"; };
 		527BDCB925865FA5005FAC42 /* MainListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListItem.swift; sourceTree = "<group>"; };
-		527BDCBB25867644005FAC42 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		527BDCBB25867644005FAC42 /* IndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
 		527BDCC025868C70005FAC42 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -182,7 +182,7 @@
 			children = (
 				527BDC7F258632F0005FAC42 /* MainView.swift */,
 				527BDCB925865FA5005FAC42 /* MainListItem.swift */,
-				527BDCBB25867644005FAC42 /* Loader.swift */,
+				527BDCBB25867644005FAC42 /* IndicatorView.swift */,
 				5274EE4D2586B26100EE625A /* ImageLoader.swift */,
 			);
 			path = Views;
@@ -344,7 +344,7 @@
 				527BDCBA25865FA6005FAC42 /* MainListItem.swift in Sources */,
 				5274EE4E2586B26100EE625A /* ImageLoader.swift in Sources */,
 				527BDCB125863D23005FAC42 /* Helper.swift in Sources */,
-				527BDCBC25867644005FAC42 /* Loader.swift in Sources */,
+				527BDCBC25867644005FAC42 /* IndicatorView.swift in Sources */,
 				527BDCC125868C70005FAC42 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
