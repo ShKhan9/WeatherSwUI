@@ -53,7 +53,7 @@ struct BottomView: View {
               }
             }
          }
-        }.listStyle(GroupedListStyle())
+        }.id(UUID()).listStyle(GroupedListStyle())
       }
     }
 }
