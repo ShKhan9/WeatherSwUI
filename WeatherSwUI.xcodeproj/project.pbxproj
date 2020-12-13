@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5274EE4E2586B26100EE625A /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274EE4D2586B26100EE625A /* ImageLoader.swift */; };
 		527BDC7C258632F0005FAC42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BDC7B258632F0005FAC42 /* AppDelegate.swift */; };
 		527BDC7E258632F0005FAC42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BDC7D258632F0005FAC42 /* SceneDelegate.swift */; };
 		527BDC80258632F0005FAC42 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BDC7F258632F0005FAC42 /* MainView.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5274EE4D2586B26100EE625A /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		527BDC78258632F0005FAC42 /* WeatherSwUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherSwUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		527BDC7B258632F0005FAC42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		527BDC7D258632F0005FAC42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				527BDC7F258632F0005FAC42 /* MainView.swift */,
 				527BDCB925865FA5005FAC42 /* MainListItem.swift */,
 				527BDCBB25867644005FAC42 /* Loader.swift */,
+				5274EE4D2586B26100EE625A /* ImageLoader.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				527BDC7E258632F0005FAC42 /* SceneDelegate.swift in Sources */,
 				527BDC80258632F0005FAC42 /* MainView.swift in Sources */,
 				527BDCBA25865FA6005FAC42 /* MainListItem.swift in Sources */,
+				5274EE4E2586B26100EE625A /* ImageLoader.swift in Sources */,
 				527BDCB125863D23005FAC42 /* Helper.swift in Sources */,
 				527BDCBC25867644005FAC42 /* Loader.swift in Sources */,
 				527BDCC125868C70005FAC42 /* MainViewModel.swift in Sources */,
