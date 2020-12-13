@@ -20,6 +20,7 @@
 		527BDCB325863D23005FAC42 /* Local.json in Resources */ = {isa = PBXBuildFile; fileRef = 527BDCB025863D23005FAC42 /* Local.json */; };
 		527BDCBA25865FA6005FAC42 /* MainListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BDCB925865FA5005FAC42 /* MainListItem.swift */; };
 		527BDCBC25867644005FAC42 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BDCBB25867644005FAC42 /* Loader.swift */; };
+		527BDCC125868C70005FAC42 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BDCC025868C70005FAC42 /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		527BDCB025863D23005FAC42 /* Local.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Local.json; sourceTree = "<group>"; };
 		527BDCB925865FA5005FAC42 /* MainListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListItem.swift; sourceTree = "<group>"; };
 		527BDCBB25867644005FAC42 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		527BDCC025868C70005FAC42 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		527BDC7A258632F0005FAC42 /* WeatherSwUI */ = {
 			isa = PBXGroup;
 			children = (
+				527BDCBF25868C3C005FAC42 /* ViewModel */,
 				527BDCBE258677BC005FAC42 /* App Delegates */,
 				527BDCBD258677A5005FAC42 /* Views */,
 				527BDCAF25863D23005FAC42 /* Files */,
@@ -189,6 +192,14 @@
 				527BDC7D258632F0005FAC42 /* SceneDelegate.swift */,
 			);
 			path = "App Delegates";
+			sourceTree = "<group>";
+		};
+		527BDCBF25868C3C005FAC42 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				527BDCC025868C70005FAC42 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,6 +341,7 @@
 				527BDCBA25865FA6005FAC42 /* MainListItem.swift in Sources */,
 				527BDCB125863D23005FAC42 /* Helper.swift in Sources */,
 				527BDCBC25867644005FAC42 /* Loader.swift in Sources */,
+				527BDCC125868C70005FAC42 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
